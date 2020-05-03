@@ -1,8 +1,0 @@
-```python
-
-import pandas as pd
-X = pd.DataFrame({'Shape':['square', 'square', 'oval', 'circle'],
-                  'Class': ['third', 'first', 'second', 'third'],
-                  'Size': ['S', 'S', 'L', 'XL']})
-                  
-```
