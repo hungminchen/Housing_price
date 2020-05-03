@@ -1,0 +1,13 @@
+import requests as req
+import pandas as pd
+
+def crawl_Dividend_Report(url, stockNo):
+    
+    form_data = {
+        'encodeURIComponent':1,
+        'step':1,
+        'firstin':1,
+        'off':1,
+        'co_id':stockNo,
+        'TYPEK':"all"
+    }
